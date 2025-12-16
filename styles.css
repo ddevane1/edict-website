@@ -33,7 +33,8 @@ nav { position: fixed; top: 0; left: 0; right: 0; background: var(--white); bord
 .nav-cta:hover { background: var(--accent-light) !important; }
 
 /* Hero */
-.hero { padding: 160px 0 100px; background: var(--primary); }
+.hero { min-height: 100vh; padding: 120px 0 80px; background: var(--primary); }
+.hero .container { min-height: calc(100vh - 200px); display: flex; flex-direction: column; justify-content: center; }
 .hero-content { max-width: 800px; }
 .hero-badge { display: inline-block; background: rgba(255,255,255,0.2); color: var(--white); padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; margin-bottom: 24px; }
 .hero h1 { font-size: clamp(40px, 6vw, 64px); color: var(--white); margin-bottom: 24px; }
@@ -145,7 +146,8 @@ footer { background: var(--text-dark); color: var(--white); padding: 60px 0 30px
 .footer-bottom { padding-top: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center; color: rgba(255, 255, 255, 0.4); font-size: 14px; }
 
 /* Apply Page */
-.apply-hero { padding: 160px 0 60px; background: var(--primary); }
+.apply-hero { min-height: 50vh; padding: 160px 0 80px; background: var(--primary); display: flex; align-items: center; }
+.apply-hero .container { width: 100%; }
 .apply-hero h1 { font-size: 48px; margin-bottom: 16px; color: var(--white); }
 .apply-hero p { font-size: 20px; color: rgba(255,255,255,0.9); max-width: 700px; }
 .apply-content { padding: 60px 0; }
