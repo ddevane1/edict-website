@@ -1,9 +1,9 @@
 :root {
-    --primary: #1A7A7A;
-    --primary-light: #1E8A8A;
-    --primary-dark: #0D5C63;
-    --accent: #E07A5F;
-    --accent-light: #E8957E;
+    --primary: #005073;        /* Navy - main brand colour */
+    --primary-light: #006890;  /* Lighter navy for hovers */
+    --primary-dark: #003D57;   /* Darker navy */
+    --accent: #96285F;         /* Magenta - good contrast as accent */
+    --accent-light: #AB4275;   /* Lighter magenta */
     --highlight: #F4D35E;
     --bg-light: #F8F9FA;
     --bg-cream: #FDF8F4;
